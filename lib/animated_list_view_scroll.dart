@@ -162,9 +162,7 @@ class _AnimatedListViewScrollState extends State<AnimatedListViewScroll> {
       print(getFirstIndexVisible(_controller));
       if (_controller.position.userScrollDirection == ScrollDirection.forward) {
         if (getFirstIndexVisible(_controller) == 0) {
-          for (int i = 0;
-              i < getLastIndexVisible(_controller);
-              i++) {
+          for (int i = 0; i < getLastIndexVisible(_controller); i++) {
             items[i].key.currentState.forward(widget.animationOnReverse
                 ? widget.animationDuration
                 : Duration(milliseconds: 0));
@@ -194,9 +192,7 @@ class _AnimatedListViewScrollState extends State<AnimatedListViewScroll> {
     });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (getFirstIndexVisible(_controller) == 0) {
-        for (int i = 0;
-            i < getLastIndexVisible(_controller) + 1;
-            i++) {
+        for (int i = 0; i < getLastIndexVisible(_controller) + 1; i++) {
           items[i].key.currentState.forward(widget.animationOnReverse
               ? widget.animationDuration
               : Duration(milliseconds: 0));
@@ -350,4 +346,3 @@ class _AnimatedListViewItemState extends State<AnimatedListViewItem>
     );
   }
 }
-
