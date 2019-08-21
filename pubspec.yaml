@@ -1,8 +1,8 @@
 name: animated_list_view_scroll
 description: A widget that provide a listview with animation on scroll
 version: 1.0.0
-author:
-homepage:
+author: marcomihaicondrache@gmail.com
+homepage: https://github.com/MarcoMihaiCondrache/animated_list_view_scroll
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
