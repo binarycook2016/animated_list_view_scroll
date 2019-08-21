@@ -46,7 +46,7 @@ AnimatedListViewScroll(
       
 ## 🚀 Showcase
 
-![Example](https://github.com/MarcoMihaiCondrache/animated_list_view_scroll/blob/master/assets/example.gif)
+![Example](https://github.com/MarcoMihaiCondrache/animated_list_view_scroll/blob/master/example.gif)
 
 ## :construction: Bugs/Requests
 
